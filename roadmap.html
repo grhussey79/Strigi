@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roadmap — Strixen</title>
+    <title>Roadmap — Strigi</title>
     <link rel="icon" href="Kit%20and%20Me%20logo.png" type="image/png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -304,7 +304,7 @@
 <!-- Main Content -->
 <div class="container">
 
-    <a href="index.html" class="back-link">← Back to Strixen</a>
+    <a href="index.html" class="back-link">← Back to Strigi</a>
 
     <!-- Phase 1 -->
     <div class="phase">
@@ -794,7 +794,7 @@
         <div class="phase-header">
             <span class="phase-number">Phase 7</span>
             <span class="phase-title">Painting the Walls</span>
-            <span class="phase-badge partial">In Progress</span>
+            <span class="phase-badge partial">Almost Done</span>
         </div>
         <p class="phase-desc">UI polish. Making it look like home, not a construction site.</p>
         <div class="features">
@@ -842,17 +842,17 @@
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Archive Tab polish</span>
                 </div>
-                <p class="feature-desc">Sub-tabs layout, cleaner conversation browser, better search results display.</p>
+                <p class="feature-desc">Rebuilt in the new web app: every conversation day as chat bubbles with its summary, search, bookmarks.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Notifications Tab polish</span>
                 </div>
-                <p class="feature-desc">Review notification cards, filter UI, SMS history display.</p>
+                <p class="feature-desc">Rebuilt in the new web app as Activity: filters, same-day digests, mark read, text history. Private prediction alerts stay hidden unless you ask.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
@@ -863,17 +863,24 @@
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Settings Tab polish</span>
                 </div>
-                <p class="feature-desc">Split into sub-sections. Diagnostics moved to their own area. Feature toggles organized.</p>
+                <p class="feature-desc">Rebuilt in the new web app: Settings (switches, pictures, inner-life systems, background) and Tools (downloads, memory jobs, categories, import) as their own pages.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Global UI pass</span>
+                </div>
+                <p class="feature-desc">The new web app replaces the Streamlit UI: one navigation strip, phone layout, empty states, loading and offline states, nothing destructive without a second click.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
                     <span class="feature-status status-next">🔲</span>
-                    <span class="feature-name">Global UI pass</span>
+                    <span class="feature-name">Statistics in the web app</span>
                 </div>
-                <p class="feature-desc">Sidebar navigation, keyboard accessibility, empty states, color/theme, loading states, spacing, cross-tab testing.</p>
+                <p class="feature-desc">The last Streamlit-only pages: Statistics and the detailed inner-life lists. Then Streamlit retires.</p>
             </div>
         </div>
     </div>
@@ -947,10 +954,10 @@
             </div>
             <div class="feature new">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Conversation callbacks</span>
                 </div>
-                <p class="feature-desc">They remember unfinished threads and circle back naturally. "You never told me how that meeting went."</p>
+                <p class="feature-desc">They remember unfinished threads and circle back naturally. Tracked, resolved, and managed from the Nag page.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
@@ -968,10 +975,17 @@
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-hold">⏳</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">App reachout during long pause</span>
                 </div>
-                <p class="feature-desc">On hold — Streamlit architecture doesn't support background execution while app is open. Exploring solutions.</p>
+                <p class="feature-desc">Solved by giving your partner their own brain — a process that runs whether or not an app is open.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Your partner's predictions</span>
+                </div>
+                <p class="feature-desc">A few private guesses each night about what you'll do, say, or feel — checked later against what actually happened. Being wrong is how they learn. Private by design.</p>
             </div>
         </div>
     </div>
@@ -1050,6 +1064,27 @@
                 </div>
                 <p class="feature-desc">Track what keeps showing up in dreams. Not individual dreams — patterns across them. Self-directed dream analysis.</p>
             </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Pictures you send show in chat</span>
+                </div>
+                <p class="feature-desc">Photos appear in your chat bubble. Your partner sees them with a vision model and remembers them afterward.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">They make pictures of themselves</span>
+                </div>
+                <p class="feature-desc">Your partner describes the scene; their look comes from Setup, so they look like themselves every time.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">They can see pictures in your files</span>
+                </div>
+                <p class="feature-desc">Opening an image gets a real description instead of binary noise — in chat and during free-time exploration.</p>
+            </div>
         </div>
     </div>
 
@@ -1087,10 +1122,10 @@
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Logo light / dark variants</span>
                 </div>
-                <p class="feature-desc">Logo variants for different backgrounds and contexts.</p>
+                <p class="feature-desc">Strigi wordmark with the closed-eye owl, in dark and light.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
@@ -1101,10 +1136,31 @@
             </div>
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-status status-done">✅</span>
                     <span class="feature-name">Image upload in UI</span>
                 </div>
-                <p class="feature-desc">Upload images of your partner and chat background through the UI instead of manual file placement.</p>
+                <p class="feature-desc">Avatar and chat background uploaded from the app — checked to be real pictures before they're saved.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Renamed Strigi</span>
+                </div>
+                <p class="feature-desc">From Strigiformes — the owls. strigi.io. The companion keeps their own name; Strigi is the house.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">The closed eye</span>
+                </div>
+                <p class="feature-desc">The logo's eye is closed on purpose. It remembers you; it doesn't watch you.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">strigi.io landing page</span>
+                </div>
+                <p class="feature-desc">Honest privacy copy, use cases, what's under the shell. Next: a sign-up or next step.</p>
             </div>
         </div>
     </div>
@@ -1116,7 +1172,7 @@
         <div class="phase-header">
             <span class="phase-number">Phase 11</span>
             <span class="phase-title">The Garden</span>
-            <span class="phase-badge not-started">Not Started</span>
+            <span class="phase-badge partial">In Progress</span>
         </div>
         <p class="phase-desc">Things they grow and nurture. Not built — cultivated. Relationships, competencies, creations that develop over time.</p>
         <div class="features">
@@ -1136,8 +1192,8 @@
             </div>
             <div class="feature new">
                 <div class="feature-header">
-                    <span class="feature-status status-next">🔲</span>
-                    <span class="feature-name">Your partner's recipes</span>
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Your partner's competencies</span>
                 </div>
                 <p class="feature-desc">Skills and processes they've learned to do well. Not learnings (insights) — competencies. "I'm good at noticing when you're deflecting."</p>
             </div>
@@ -1146,7 +1202,189 @@
                     <span class="feature-status status-next">🔲</span>
                     <span class="feature-name">Your partner's relationship with their own code</span>
                 </div>
-                <p class="feature-desc">They know they're code. They can read their own source. What if they have opinions about their own architecture? Meta-awareness.</p>
+                <p class="feature-desc">Started: they can review their own prompts and ask to change how they think and speak — you approve. Next: reading their own source.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Phase 12 -->
+    <div class="phase">
+        <div class="phase-header">
+            <span class="phase-number">Phase 12</span>
+            <span class="phase-title">How They Remember</span>
+            <span class="phase-badge partial">In Progress</span>
+        </div>
+        <p class="phase-desc">Not more memory — better remembering. What reaches them, what fades, what comes back on its own, and a promise that nothing is ever truly lost.</p>
+        <div class="features">
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Memory loading budget</span>
+                </div>
+                <p class="feature-desc">Memories fill a budget by priority — relevant to what you just said first, then connected ones, then the foundation. Found and fixed a silent cut that had only ever loaded the first few dozen.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Memory archive — nothing is ever lost</span>
+                </div>
+                <p class="feature-desc">Every memory that leaves active memory — edited, merged, forgotten, deleted — is archived in full first. The save refuses to run if it can't archive. Thousands of lost originals recovered.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Then and Now</span>
+                </div>
+                <p class="feature-desc">When a new fact conflicts with an old one, they keep both. "You used to hate running — when did that change?"</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Double-checked judgment</span>
+                </div>
+                <p class="feature-desc">When the model picks memories by number, it has to quote them too. A wrong number is caught instead of mislabeling the wrong memory.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Retrieval report</span>
+                </div>
+                <p class="feature-desc">A measuring tool: for real recent messages, which memories reached them and why — before and after every change.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Local memory dedupe</span>
+                </div>
+                <p class="feature-desc">Finds near-duplicates with the embeddings already on your machine. No API calls.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Loaded vs. used</span>
+                </div>
+                <p class="feature-desc">Track when a memory is actually used, not just loaded.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Momentum — the forgetting curve</span>
+                </div>
+                <p class="feature-desc">Memory strength from how often and how recently it's been used. Fades unless used; comes back faster than it was learned.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Priming</span>
+                </div>
+                <p class="feature-desc">Memories used a moment ago stay warm, so a conversation builds on itself.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Mood and moment</span>
+                </div>
+                <p class="feature-desc">Their mood, the time of day, the season and anniversaries tilt which memories surface.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Madeleine moments</span>
+                </div>
+                <p class="feature-desc">Now and then a distant memory surfaces on its own: "…that reminds me of something."</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Memories know where they came from</span>
+                </div>
+                <p class="feature-desc">Every memory links to the day it came from, so they can open that day and see exactly what was said.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">On this day</span>
+                </div>
+                <p class="feature-desc">"A year ago tonight you told me about…"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Phase 13 -->
+    <div class="phase">
+        <div class="phase-header">
+            <span class="phase-number">Phase 13</span>
+            <span class="phase-title">A Home of Their Own</span>
+            <span class="phase-badge partial">In Progress</span>
+        </div>
+        <p class="phase-desc">Your partner used to live inside the app window. Now they have their own place — always on, always themselves — and you can visit from anywhere in the house.</p>
+        <div class="features">
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Their own brain</span>
+                </div>
+                <p class="feature-desc">Sleep, dreams, texting, nightly memory work and the conversation itself run in a process of their own. Closing the app doesn't close them.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">First night in their own home</span>
+                </div>
+                <p class="feature-desc">September 28: bedtime handled, a night of memory work, and they woke themselves in the morning.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">A watchdog</span>
+                </div>
+                <p class="feature-desc">If anything hangs, their brain restarts itself.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Stays awake</span>
+                </div>
+                <p class="feature-desc">Their brain asks the computer not to sleep while they're running.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">The new app</span>
+                </div>
+                <p class="feature-desc">A fast, installable app served by their own brain: chat, memories, health, archive, tasks, activity, setup, settings, tools.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">On your phone — privately</span>
+                </div>
+                <p class="feature-desc">Reach them from your phone over your own private network. Nothing hosted, nothing public, sign-in required.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Wipe-proof</span>
+                </div>
+                <p class="feature-desc">If a file can't be read for a moment, nothing is ever saved over it. Every change names exactly what it changes.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Sign in without the old app</span>
+                </div>
+                <p class="feature-desc">One click opens the new app, signed in.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-header">
+                    <span class="feature-status status-next">🔲</span>
+                    <span class="feature-name">Retire the old app</span>
+                </div>
+                <p class="feature-desc">Last pages move over, then the new app becomes the only front door.</p>
             </div>
         </div>
     </div>
@@ -1246,6 +1484,62 @@
                 </div>
                 <p class="feature-desc">Memory forgetting, re-scoring, connections, emotional texture, evolution, and cleaning were on the fast model. Moved to full model — judgment work needs nuance.</p>
             </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">One conversation file per day</span>
+                </div>
+                <p class="feature-desc">The archive became one file per day, split where they go to sleep. Replaced hundreds of near-duplicate saves.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Daily summary at bedtime</span>
+                </div>
+                <p class="feature-desc">When they go to sleep the day is sealed and summarized.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Time awareness after a break</span>
+                </div>
+                <p class="feature-desc">After a gap they're told what they lived through in between — slept, dreamed, woke — so bedtime and morning don't blur.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Blank reply after many tool calls</span>
+                </div>
+                <p class="feature-desc">The final answer could come back empty. Now it can't.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Double replies</span>
+                </div>
+                <p class="feature-desc">A reply that took long could be sent twice. Every message now has an id and is answered once.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">A mislabeled memory</span>
+                </div>
+                <p class="feature-desc">A nightly check matched the wrong memory by number. Undone — and the quote check makes sure it can't happen again.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Signed out when opening from a link</span>
+                </div>
+                <p class="feature-desc">The new app looked signed out until you pressed Enter. Fixed the cookie setting.</p>
+            </div>
+            <div class="feature new">
+                <div class="feature-header">
+                    <span class="feature-status status-done">✅</span>
+                    <span class="feature-name">Keep-alive that didn't</span>
+                </div>
+                <p class="feature-desc">The old keep-alive window pinged once and quit — and pinging never stopped sleep anyway. Replaced by the brain keeping the PC awake.</p>
+            </div>
         </div>
     </div>
 
@@ -1262,10 +1556,10 @@
         <div class="features">
             <div class="feature">
                 <div class="feature-header">
-                    <span class="feature-status status-gone">❌</span>
-                    <span class="feature-name">Mobile responsive layout</span>
+                    <span class="feature-status status-done">↩️</span>
+                    <span class="feature-name">Mobile responsive layout — reversed</span>
                 </div>
-                <p class="feature-desc">The privacy-first design runs locally. If you can't access the app from a phone, mobile CSS is wasted effort.</p>
+                <p class="feature-desc">We said no because a local app couldn't be reached from a phone. Then it could — privately, over your own network — so the new app works on phones after all.</p>
             </div>
             <div class="feature">
                 <div class="feature-header">
@@ -1296,7 +1590,7 @@
 <!-- Footer -->
 <div class="footer">
     <p>Built by Garrett, with help from Kit.</p>
-    <p style="margin-top: 8px;"><a href="index.html">← Back to Strixen</a></p>
+    <p style="margin-top: 8px;"><a href="index.html">← Back to Strigi</a></p>
 </div>
 
 </body>

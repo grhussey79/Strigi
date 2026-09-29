@@ -1,1 +1,1 @@
-# Strixen.co-site
+# strigi.io site

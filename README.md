@@ -1,1 +1,1 @@
-# strigi.io site
+# palner.app site
